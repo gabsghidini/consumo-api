@@ -1,12 +1,12 @@
 body {
   width: 100vw;
+  height: 100vh;
   display: grid;
   place-items: center;
   margin: 0;
 }
 
 ul {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
