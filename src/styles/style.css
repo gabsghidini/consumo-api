@@ -1,0 +1,39 @@
+body {
+    width: 97vw;
+    height: 97vh;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+li img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+li button {
+    background-color: #6393da;
+    color: white;
+    border-radius: 5px;
+    height: 1.9em;
+    border: none;
+    cursor: pointer;
+}
+
+li button:hover {
+    transition: 200ms;
+    background-color: #497ac5;
+}
